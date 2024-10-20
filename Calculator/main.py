@@ -37,11 +37,11 @@ if (select == 1):
 elif (select == 2):
     print(number_1, "-", number_2, "=", subtract(number_1, number_2))
 
-elif (select == 1):
-    print(number_1, "+", number_2, "=", Multiply(number_1, number_2))
+elif (select == 3):
+    print(number_1, "*", number_2, "=", Multiply(number_1, number_2))
 
-elif (select == 1):
-    print(number_1, "+", number_2, "=", Divide(number_1, number_2))
+elif (select == 4):
+    print(number_1, "/", number_2, "=", Divide(number_1, number_2))
 
 else:
     print("Invalid input ")
